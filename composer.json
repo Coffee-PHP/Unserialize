@@ -1,0 +1,34 @@
+{
+	"name": "coffeephp/unserialize",
+	"description": "Provides an interface for unserializer classes to implement.",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Danny Damsky",
+			"email": "dannydamsky99@gmail.com"
+		}
+	],
+	"keywords": [
+		"coffeephp",
+		"coffee",
+		"php",
+		"unserialize",
+		"unserialization",
+		"deserialize",
+		"deserialization"
+	],
+	"require": {
+		"php": ">=7.4",
+		"ext-apcu": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"CoffeePhp\\Unserialize\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"apcu-autoloader": true
+	}
+}
