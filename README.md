@@ -1,5 +1,7 @@
 # Coffee PHP - Unserialize
 
+![Build](https://github.com/Coffee-PHP/Unserialize/workflows/Build/badge.svg)
+
 Provides an interface for unserializer classes to implement.
 
 ```
